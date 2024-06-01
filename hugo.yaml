@@ -1,0 +1,21 @@
+languages:
+  de:
+    baseURL: https://example.org/
+    languageName: Deutsch
+    title: My New Hugo Site
+    contentDir: content/de
+    weight: 1
+  en:
+    baseURL: https://us.example.org/
+    languageName: English
+    title: My New Hugo Site
+    contentDir: content/en
+    weight: 2
+
+params:
+  language_menu: true
+  show_current_lang: true
+
+module:
+  imports:
+  - path: github.com/zjedi/hugo-scroll
