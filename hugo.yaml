@@ -1,3 +1,6 @@
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
 languages:
   de:
     baseURL: https://example.org/
